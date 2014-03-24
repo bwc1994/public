@@ -1,0 +1,302 @@
+body {
+  background-image:url('../images/bluebackground.jpg');
+  background-color:#6699cc;
+  background-repeat:repeat;
+  min-height:100%;
+  background-size:cover;
+  margin:0;
+  padding:0;
+  color: #000000;
+  text-align:center;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:large;
+  font-style:normal;
+  font-variant:normal;
+  font-weight:normal;
+  line-height:normal;
+  width: 100%;
+}
+
+
+a:link a:active, a:visited {
+    color:#4169E1; text-decoration:none; font-weight:bold;
+}
+
+a:hover {color:#2b722a; text-decoration:none; font-weight:bold;}
+
+footer  {
+    padding-top:20px;
+}
+
+.page_wrapper   {
+  text-align:left;
+  background-color: #FFFFFF;
+  border-radius: 15px;
+  margin:auto;
+  width:900px;
+  padding:0;
+  position:relative;
+}
+
+
+
+
+header  {
+  display:block;
+  margin-top:10px;
+  margin-left:auto;
+  margin-right:auto;
+  border-radius:15px;
+  padding-top:5px;
+  width:100%;
+  
+}
+
+
+.summary{
+
+    margin-left: 25%;
+    margin-right: 25%;
+
+}
+.right_sidebar  {
+    font-size: medium;
+	font-weight:bold;
+    font-style: italic;
+    position:absolute;
+    top: 300px;
+    right: 10px;
+    color:#4169E1;
+    width: 20%;
+}
+
+.right_sidebar .endorsement {
+	font-size: small;
+	margin: 0;
+}
+
+.endorsement .ref {
+	position: relative;
+	font-size: 70%;
+	text-align: right;
+	color: #2b722a !important;
+	font-weight: bold;
+	padding-top:5px;
+}
+
+/*
+.right_sidebar	a {
+	text-decoration: underline;
+	font-size:10px;
+	text-align: right-side !important;
+	font-style: normal;
+	font-weight: none;
+
+}
+*/
+.left_sidebar   {
+  position:absolute;
+  top:240px;
+  left:10px;
+  width:20%;
+  text-decoration:none;
+  font-size:small;
+  color:#000000;
+  text-align:left;
+}
+
+.left_sidebar li a:link	{
+	text-decoration:none;
+	display:block;
+}
+
+.disorder_selection ul {
+  padding-left: 0;
+  margin-left: 0;
+  line-height: 2.0;
+  color: #4169E1;
+  text-shadow: 3px 3px 10px #4169E1
+	
+}
+
+
+
+
+
+.speciality  {
+    /*color: #2b722a;*/
+    width:456px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:small;
+    /*text-align:center;*/
+    /*text-align:justify;*/
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-bottom: 25px;
+}
+
+
+
+.explanation .content    {
+    color: #2b722a;
+    margin: 0 auto 0 auto;
+    text-decoration:underline;
+    list-style-type:square;
+    /*text-align:center;*/
+   /* display: list-item;*/
+    /*display: block;*/
+}
+
+.explanation nav a    {
+    text-align:center;
+    list-style-type:square;
+    color: #2b722a;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+
+ul .a   {
+    list-style-type:circle;
+}
+
+
+
+
+.left_side ul   {
+    list-style-type:none;
+    padding-left: 0;
+    margin-left: 0;
+    line-height: 2.0;
+}
+
+
+.sidebar h1 {
+    background-color:#254117;
+    border-radius:10px;
+    font-size:large;
+    color:#ffffff;
+    text-align: center;
+}
+
+.client {
+    font-size: small;
+    font-style: italic;
+    position:absolute;
+    top: 300px;
+    right: 10px;
+    color:#4169E1;
+    /*float: right;*/
+    width: 20%;
+   /* padding-left: 5px;*/
+}
+
+
+
+
+footer  {
+    width:100%;
+    position:absolute;
+    text-align:center;
+    color:#000000;
+    font-size:70%;
+}
+
+.summary p    {
+    color:black;
+    /* added width based on current website ksposato.com
+    width: 456px;*/
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:small;
+    text-align:justify;
+    padding-left:5px;
+    padding-right:5px;
+}
+
+.summary p em	{
+	color:red;
+	font-weight:bold;
+	font-style:normal;
+}
+
+.summary nav  {
+	list-style-type:circle;
+	line-height: 1.5;
+	color: #4169E1;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:small;
+    text-align:justify;
+    margin-left:25%;
+    margin-right:25%;
+	text-decoration:underline;
+}
+/*
+.raised	{
+	border:solid 1px #2d2d2d;
+	text-align:center; 
+	background:#eeeeee; 
+	padding-top:5px;  
+	-moz-border-radius: 5px;  
+	-webkit-border-radius: 20px; 
+	border-radius: 20px;
+	-moz-box-shadow:10px  10px 5px #000000;
+	-webkit-box-shadow:0 0 0 10px #DBDBDB;
+	box-shadow:0 0 0 10px #DBDBDB;
+
+}
+*/
+
+.raised {
+background:#eeeeee;
+text-align:center; 
+padding:5px;
+-moz-border-radius: 5px; 
+border-radius: 20px;
+-webkit-border-radius: 20px; 
+-moz-box-sizing: content-box;
+-webkit-box-sizing: content-box;
+box-sizing: content-box;
+margin-bottom:5px;
+}
+
+
+
+/* should replace text-decoration:underline to something else. Underline is not recommended */
+#quote  {
+  font-family:Arial, Helvetica, sans-serif;
+  color:#B22222;
+  text-align: center;
+  text-decoration:underline;
+  font-weight:bold;
+  font-size:x-large;
+}
+
+#experience {
+    text-decoration:underline;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.speciality .content {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.speciality .explanation a:link {
+    color:#2b722a; text-decoration:underline; font-weight:bold;
+}
+.speciality .explanation a:hover {
+    color:#2b722a; text-decoration:underline; font-weight:bold;
+}
+.speciality .explanation a:active    {
+    color:#2b722a; text-decoration:underline; font-weight:bold;
+}
+.speciality .explanation a:visited {
+    color:#2b722a; text-decoration:underline; font-weight:bold;
+    
+}
+
+

@@ -1,0 +1,250 @@
+body {
+  background-image:url('../images/bluebackground.jpg');
+  background-color:#6699cc;
+  background-repeat:repeat;
+  min-height:100%;
+  background-size:cover;
+  margin:0;
+  padding:0;
+  color: #000000;
+  text-align:center;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:large;
+  font-style:normal;
+  font-variant:normal;
+  font-weight:normal;
+  line-height:normal;
+}
+
+
+a:link a:active, a:visited {
+    color:#4169E1; text-decoration:none; font-weight:bold;
+}
+
+a:hover {color:#2b722a; text-decoration:none; font-weight:bold;}
+
+/*footer  {
+    padding-top:20px;
+}
+*/
+footer  {
+    width:100%;
+    position:absolute;
+    text-align:center;
+    color:#000000;
+    font-size:70%;
+}
+
+.page_wrapper   {
+  text-align:left;
+  background-color: #FFFFFF;
+  border-radius: 15px;
+  margin:auto;
+  width:900px;
+  padding:0;
+  position:relative;
+}
+
+
+
+
+header  {
+  display:block;
+  margin-top:10px;
+  margin-left:auto;
+  margin-right:auto;
+  border-radius:15px;
+  padding-top:5px;
+  
+}
+
+.summary p    {
+    color:black;
+    /* added width based on current website ksposato.com
+    width: 456px;*/
+    font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size:small;
+    text-align:justify;
+    margin-left:25%;
+    margin-right:25%;
+}
+
+.summary nav  {
+	list-style-type:circle;
+	color: #4169E1;
+    font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size:small;
+    text-align:justify;
+    margin-left:25%;
+    margin-right:25%;
+	text-decoration:underline;
+}
+
+.right_sidebar  {
+    font-size: medium;
+	font-weight:bold;
+    font-style: italic;
+    position:absolute;
+    top: 300px;
+    right: 10px;
+    color:#4169E1;
+    width: 20%;
+}
+
+.right_sidebar .endorsement {
+	font-size: small;
+	margin: 0;
+}
+
+.endorsement .ref {
+	position: relative;
+	font-size: 70%;
+	text-align: right;
+	color: #2b722a !important;
+	font-weight: bold;
+	padding-top:5px;
+}
+
+
+.left_sidebar   {
+  position:absolute;
+  top:240px;
+  left:10px;
+  width:20%;
+  text-decoration:none;
+  font-size:small;
+  color:#000000;
+  text-align:left;
+
+}
+
+.disorder_selection ul  {
+  list-style-type:none;
+  padding-left: 0;
+  margin-left: 0;
+  line-height: 2.0;
+  color: #2b722a;
+  text-decoration: none;
+
+}
+
+
+
+
+
+.speciality  {
+    /*color: #2b722a;*/
+    width:456px;
+    font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size:small;
+    /*text-align:center;*/
+    /*text-align:justify;*/
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-bottom: 25px;
+}
+
+
+
+.explanation .content    {
+    color: #2b722a;
+    margin: 0 auto 0 auto;
+    text-decoration:underline;
+    list-style-type:square;
+    /*text-align:center;*/
+   /* display: list-item;*/
+    /*display: block;*/
+}
+
+.explanation nav a    {
+    text-align:center;
+    list-style-type:square;
+    color: #2b722a;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: small;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+
+ul .a   {
+    list-style-type:circle;
+}
+
+
+
+
+.left_side ul   {
+    list-style-type:none;
+    padding-left: 0;
+    margin-left: 0;
+    line-height: 2.0;
+}
+
+
+.sidebar h1 {
+    background-color:#254117;
+    border-radius:10px;
+    font-size:large;
+    color:#ffffff;
+    text-align: center;
+}
+
+.client {
+    font-size: small;
+    font-style: italic;
+    position:absolute;
+    top: 300px;
+    right: 10px;
+    color:#4169E1;
+    /*float: right;*/
+    width: 20%;
+   /* padding-left: 5px;*/
+}
+
+
+
+
+
+
+
+
+
+
+/* should replace text-decoration:underline to something else. Underline is not recommended */
+#quote  {
+  font-family:Arial,Helvetica,sans-serif;
+  color:#B22222;
+  text-align: center;
+  text-decoration:underline;
+  font-weight:bold;
+  font-size:x-large;
+}
+
+#experience {
+    text-decoration:underline;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.speciality .content {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.speciality .explanation a:link {
+    color:#2b722a; text-decoration:underline; font-weight:bold;
+}
+.speciality .explanation a:hover {
+    color:#2b722a; text-decoration:underline; font-weight:bold;
+}
+.speciality .explanation a:active    {
+    color:#2b722a; text-decoration:underline; font-weight:bold;
+}
+.speciality .explanation a:visited {
+    color:#2b722a; text-decoration:underline; font-weight:bold;
+    
+}
+
+

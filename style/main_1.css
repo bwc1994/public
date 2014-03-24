@@ -1,0 +1,179 @@
+html    {
+  background-image:url('../images/bluebackground.jpg');
+  background-color:#6699cc;
+  background-repeat:repeat;
+  min-height:100%;
+  background-size:cover;
+  
+}
+
+body {
+  margin:0;
+  padding:0;
+/*  height:100%;
+  min-height:100%;*/
+  color: #000000;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:large;
+  font-style:normal;
+  font-variant:normal;
+  font-weight:normal;
+  line-height:normal;
+  /*background-image:url('../images/bluebackground.jpg');
+  background-color:#6699cc;
+  background-repeat:repeat;*/
+}
+
+.page_wrapper   {
+  text-align:left;
+  background-color: #FFFFFF;
+  border-radius: 15px;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  width:900px;
+  padding:0;
+  position:relative;
+  
+    
+}
+
+
+
+body #banner    {
+ /*   background-color: #FFFFFF;*/
+    display:block;
+    margin-top:10px;
+    margin-left:auto;
+    margin-right:auto;
+    /*width:900px;
+    height:224px;*/
+    border-radius:15px;
+    
+}
+
+body #banner img   {
+    display:block;
+    /*margin-left:auto;
+    margin-right:auto;*/
+    border-radius:15px;
+    margin-top:10px;
+}
+
+
+
+
+.speciality  {
+    /*color: #2b722a;*/
+    width:456px;
+    font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size:small;
+    text-align:justify;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.client {
+    font-size: small;
+    font-style: italic;
+    color:#4169E1;
+    float: right;
+    width: 20%;
+   /* padding-left: 5px;*/
+}
+
+.explanation nav    {
+    color: #2b722a;
+    margin: 0 auto 0 auto;
+    text-decoration:underline;
+    /*text-align:center;*/
+   /* display: list-item;*/
+    /*display: block;*/
+}
+
+.explanation nav a    {
+    text-align:center;
+    color: #2b722a;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: small;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+/*.explanation p {
+    color:black;
+    font-family:Arial,Helvetica,sans-serif;
+    font-size:small;
+    text-align:center;
+    width:100%;
+    
+}
+*/
+ul .a   {
+    list-style-type:circle;
+}
+
+
+.sidebar    {
+  position:absolute;
+  top:200px;
+  left:20px;
+  width:300px;
+  border-top-color:#FFFFFF;
+  border-top-style:solid;
+  border-top-width:1px;
+  font-size:75%;
+  color:#FFFFFF;
+ /* float:left;*/
+}
+
+
+/*
+.content a   {
+color: #2b722a;
+font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: small;
+font-weight: bold;
+}
+*/
+
+footer  {
+    width:100%;
+    position:absolute;
+    text-align:center;
+    color:#000000;
+    font-size:70%;
+}
+
+#summary p    {
+    color:black;
+    /* added width based on current website ksposato.com
+    width: 456px;*/
+    font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size:small;
+    text-align:justify;
+    margin-left:25%;
+    margin-right:25%;
+}
+
+
+/*
+#summary {
+    color:black;
+    font-family:Arial,Helvetica,sans-serif;
+    text-align:center;
+    margin-right:25%;
+    margin-left:25%;
+    
+}*/
+
+
+/* should replace text-decoration:underline to something else. Underline is not recommended */
+#quote  {
+  font-family:Arial,Helvetica,sans-serif;
+  color:#B22222;
+  text-align: center;
+  text-decoration:underline;
+  font-weight:bold;
+  font-size:x-large;
+}
